@@ -11,7 +11,7 @@ const PRODUCTS = [
         colors: ["Black", "White"],
         stock: 12,
         featured: true,
-        image: "/images/products/item-1.jpg",
+        image: "images/products/item-1.jpg",
         images: [
             "assets/images/nike1.jpg",
             "assets/images/nike1-2.jpg"
@@ -28,7 +28,7 @@ const PRODUCTS = [
         subcategory: "sports",
         stock: 8,
         featured: false,
-        image: "/images/products/item-2.jpg",
+        image: "images/products/item-2.jpg",
         description: "Energy return cushioning."
     }
 ];
