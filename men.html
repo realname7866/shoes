@@ -490,7 +490,7 @@
 							</h2>
 
 							<span class="price">
-								$${product.price}
+								 ${product.price} &#8360;
 							</span>
 
 							<button
@@ -511,7 +511,11 @@
 		});
 	}
 
-	renderProducts(PRODUCTS);
+	const menProducts = PRODUCTS.filter(
+			product => product.category === "men"
+	);
+
+	renderProducts(menProducts);
 
 	updateCartCount();
 </script>

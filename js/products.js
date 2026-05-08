@@ -3,14 +3,15 @@ const PRODUCTS = [
         id: "nike-air-max-1",
         name: "Nike Air Max 1",
         brand: "Nike",
+        category:'men',
         price: 120,
         oldPrice: 150,
-        category: "running",
+        subcategory: "running",
         sizes: [39, 40, 41, 42, 43],
         colors: ["Black", "White"],
         stock: 12,
         featured: true,
-        image: "assets/images/nike1.jpg",
+        image: "/images/products/item-1.jpg",
         images: [
             "assets/images/nike1.jpg",
             "assets/images/nike1-2.jpg"
@@ -22,11 +23,12 @@ const PRODUCTS = [
         id: "adidas-ultraboost",
         name: "Adidas Ultraboost",
         brand: "Adidas",
+        category:'women',
         price: 140,
-        category: "sports",
+        subcategory: "sports",
         stock: 8,
         featured: false,
-        image: "assets/images/adidas1.jpg",
+        image: "/images/products/item-2.jpg",
         description: "Energy return cushioning."
     }
 ];
