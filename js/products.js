@@ -17,6 +17,25 @@ const PRODUCTS = [
             "assets/images/nike1-2.jpg"
         ],
         description: "Comfortable running shoes."
+    }, 
+    {
+        id: "nike-sb-malorskate",
+        name: "Nike SB Malorskate",
+        brand: "Nike",
+        category:'men',
+        price: 120,
+        oldPrice: 150,
+        subcategory: "running",
+        sizes: [39, 40, 41, 42, 43],
+        colors: ["Black", "White"],
+        stock: 12,
+        featured: true,
+        image: "images/products/Nike SB Malor Skate.jpeg",
+        images: [
+            "assets/images/nike1.jpg",
+            "assets/images/nike1-2.jpg"
+        ],
+        description: "Comfortable running shoes."
     },
 
     {
